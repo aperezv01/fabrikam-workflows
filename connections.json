@@ -1,0 +1,18 @@
+{
+  "managedApiConnections": {
+    "office365": {
+      "api": {
+        "id": "/subscriptions/56c2dbaf-79b0-4c5f-b141-30d59aca3f71/providers/Microsoft.Web/locations/eastus/managedApis/office365"
+      },
+      "connection": {
+        "id": "/subscriptions/56c2dbaf-79b0-4c5f-b141-30d59aca3f71/resourceGroups/LoApps_RG/providers/Microsoft.Web/connections/office365"
+      },
+      "connectionRuntimeUrl": "https://391fca2d5a115100.19.common.logic-eastus.azure-apihub.net/apim/office365/9ee960aa703b4fd89c9c8fa04ed153a2/",
+      "authentication": {
+        "type": "Raw",
+        "scheme": "Key",
+        "parameter": "@appsetting('office365-connectionKey')"
+      }
+    }
+  }
+}
